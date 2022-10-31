@@ -18,22 +18,22 @@ for (salesdata in all_sales){
 ############## JOIN ###############
 # Use a tidyverse join to join all the data together into one file
 # called sales_data, then run the rest of the code
-sales_joined <- full_join(datafile, dataset_1)
-sales_joined <- full_join(sales_joined, dataset_2)
-sales_joined <- full_join(sales_joined, dataset_3)
-sales_joined <- full_join(sales_joined, dataset_4)
-sales_joined <- full_join(sales_joined, dataset_5)
-sales_joined <- full_join(sales_joined, dataset_6)
-sales_joined <- full_join(sales_joined, dataset_7)
-sales_joined <- full_join(sales_joined, dataset_8)
-sales_joined <- full_join(sales_joined, dataset_9)
-sales_joined <- full_join(sales_joined, dataset_10)
-sales_joined <- full_join(sales_joined, dataset_11)
-sales_joined <- full_join(sales_joined, dataset_12)
-sales_joined <- full_join(sales_joined, dataset_13)
-sales_joined <- full_join(sales_joined, dataset_14)
-sales_joined <- full_join(sales_joined, dataset_15)
-sales_joined <- full_join(sales_joined, dataset_16)
+sales_data <- full_join(datafile, dataset_1)
+sales_data <- full_join(sales_data, dataset_2)
+sales_data <- full_join(sales_data, dataset_3)
+sales_data <- full_join(sales_data, dataset_4)
+sales_data <- full_join(sales_data, dataset_5)
+sales_data <- full_join(sales_data, dataset_6)
+sales_data <- full_join(sales_data, dataset_7)
+sales_data <- full_join(sales_data, dataset_8)
+sales_data <- full_join(sales_data, dataset_9)
+sales_data <- full_join(sales_data, dataset_10)
+sales_data <- full_join(sales_data, dataset_11)
+sales_data <- full_join(sales_data, dataset_12)
+sales_data <- full_join(sales_data, dataset_13)
+sales_data <- full_join(sales_data, dataset_14)
+sales_data <- full_join(sales_data, dataset_15)
+sales_data <- full_join(sales_data, dataset_16)
 
 ########################################
 
